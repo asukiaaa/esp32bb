@@ -1,0 +1,401 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ESP32-footprints-Shem-Lib
+LIBS:ftdi
+LIBS:esp-wroom-32-break-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32-WROOM U?
+U 1 1 58699EC9
+P 5500 3750
+F 0 "U?" H 4800 5000 60  0000 C CNN
+F 1 "ESP32-WROOM" H 6000 5000 60  0000 C CNN
+F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 5850 5100 60  0001 C CNN
+F 3 "" H 5050 4200 60  0001 C CNN
+	1    5500 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 6400 4200 2    39   Input ~ 0
+boot
+$Comp
+L GND #PWR?
+U 1 1 5869A2D2
+P 4400 4950
+F 0 "#PWR?" H 4400 4700 50  0001 C CNN
+F 1 "GND" H 4400 4800 50  0000 C CNN
+F 2 "" H 4400 4950 50  0000 C CNN
+F 3 "" H 4400 4950 50  0000 C CNN
+	1    4400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5869A314
+P 6550 4900
+F 0 "#PWR?" H 6550 4650 50  0001 C CNN
+F 1 "GND" H 6550 4750 50  0000 C CNN
+F 2 "" H 6550 4900 50  0000 C CNN
+F 3 "" H 6550 4900 50  0000 C CNN
+	1    6550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FT232RL U?
+U 1 1 586B5659
+P 8500 3500
+F 0 "U?" H 7850 4400 50  0000 L CNN
+F 1 "FT232RL" H 8900 4400 50  0000 L CNN
+F 2 "SSOP-28" H 8500 3500 50  0000 C CNN
+F 3 "" H 8500 3500 50  0000 C CNN
+	1    8500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_OTG P?
+U 1 1 586B58B7
+P 8500 1500
+F 0 "P?" H 8825 1375 50  0000 C CNN
+F 1 "USB_OTG" H 8500 1700 50  0000 C CNN
+F 2 "" V 8450 1400 50  0000 C CNN
+F 3 "" V 8450 1400 50  0000 C CNN
+	1    8500 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 586B597C
+P 7900 1300
+F 0 "#PWR?" H 7900 1150 50  0001 C CNN
+F 1 "+5V" H 7900 1440 50  0000 C CNN
+F 2 "" H 7900 1300 50  0000 C CNN
+F 3 "" H 7900 1300 50  0000 C CNN
+	1    7900 1300
+	1    0    0    -1  
+$EndComp
+Text GLabel 8200 1500 0    39   Input ~ 0
+D+
+Text GLabel 8200 1400 0    39   Input ~ 0
+D-
+$Comp
+L GND #PWR?
+U 1 1 586B59F7
+P 7900 1700
+F 0 "#PWR?" H 7900 1450 50  0001 C CNN
+F 1 "GND" H 7900 1550 50  0000 C CNN
+F 2 "" H 7900 1700 50  0000 C CNN
+F 3 "" H 7900 1700 50  0000 C CNN
+	1    7900 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7700 3200 0    39   Input ~ 0
+D-
+Text GLabel 7700 3100 0    39   Input ~ 0
+D+
+NoConn ~ 8600 1900
+NoConn ~ 8200 1600
+$Comp
+L GND #PWR?
+U 1 1 586B5A9A
+P 8300 4700
+F 0 "#PWR?" H 8300 4450 50  0001 C CNN
+F 1 "GND" H 8300 4550 50  0000 C CNN
+F 2 "" H 8300 4700 50  0000 C CNN
+F 3 "" H 8300 4700 50  0000 C CNN
+	1    8300 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9300 2900 2    39   Input ~ 0
+RXDtoTXD0
+Text GLabel 9300 2800 2    39   Input ~ 0
+TXDtoRXD0
+$Comp
+L +5V #PWR?
+U 1 1 586B5D09
+P 8600 2300
+F 0 "#PWR?" H 8600 2150 50  0001 C CNN
+F 1 "+5V" H 8600 2440 50  0000 C CNN
+F 2 "" H 8600 2300 50  0000 C CNN
+F 3 "" H 8600 2300 50  0000 C CNN
+	1    8600 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 586B8187
+P 9750 3550
+F 0 "D?" H 9750 3650 50  0000 C CNN
+F 1 "LED" H 9750 3450 50  0000 C CNN
+F 2 "" H 9750 3550 50  0000 C CNN
+F 3 "" H 9750 3550 50  0000 C CNN
+	1    9750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 586B81C8
+P 9950 3550
+F 0 "D?" H 9950 3650 50  0000 C CNN
+F 1 "LED" H 9950 3450 50  0000 C CNN
+F 2 "" H 9950 3550 50  0000 C CNN
+F 3 "" H 9950 3550 50  0000 C CNN
+	1    9950 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 586B8215
+P 9750 3200
+F 0 "#PWR?" H 9750 3050 50  0001 C CNN
+F 1 "+5V" H 9750 3340 50  0000 C CNN
+F 2 "" H 9750 3200 50  0000 C CNN
+F 3 "" H 9750 3200 50  0000 C CNN
+	1    9750 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 586B822F
+P 9950 3200
+F 0 "#PWR?" H 9950 3050 50  0001 C CNN
+F 1 "+5V" H 9950 3340 50  0000 C CNN
+F 2 "" H 9950 3200 50  0000 C CNN
+F 3 "" H 9950 3200 50  0000 C CNN
+	1    9950 3200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9300 4000
+NoConn ~ 9300 4100
+NoConn ~ 9300 4200
+Text GLabel 9300 3100 2    39   Input ~ 0
+CTS
+Text GLabel 9300 3200 2    39   Input ~ 0
+DTR
+NoConn ~ 9300 3000
+NoConn ~ 9300 3300
+NoConn ~ 9300 3400
+NoConn ~ 9300 3500
+NoConn ~ 7700 3500
+NoConn ~ 7700 3700
+NoConn ~ 7700 3900
+NoConn ~ 7700 2800
+NoConn ~ 8400 2500
+Text GLabel 4550 3250 0    39   Input ~ 0
+EN
+Text GLabel 6400 3300 2    39   Input ~ 0
+TXDtoRXD0
+Text GLabel 6400 3200 2    39   Input ~ 0
+RXDtoTXD0
+$Comp
+L SD_Card CON?
+U 1 1 586B860B
+P 5300 6350
+F 0 "CON?" H 4650 6900 50  0000 C CNN
+F 1 "SD_Card" H 5900 5800 50  0000 C CNN
+F 2 "10067847-001" H 5500 6700 50  0000 C CNN
+F 3 "" H 5300 6350 50  0000 C CNN
+	1    5300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L LT1129IST-3.3 U?
+U 1 1 586B8F3F
+P 7400 5850
+F 0 "U?" H 7150 6050 50  0000 C CNN
+F 1 "AMS1117" H 7550 6050 50  0000 C CNN
+F 2 "SOT-223" H 7400 5950 50  0000 C CIN
+F 3 "" H 7400 5850 50  0000 C CNN
+	1    7400 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 586B8FCC
+P 6950 5800
+F 0 "#PWR?" H 6950 5650 50  0001 C CNN
+F 1 "+5V" H 6950 5940 50  0000 C CNN
+F 2 "" H 6950 5800 50  0000 C CNN
+F 3 "" H 6950 5800 50  0000 C CNN
+	1    6950 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 586B9054
+P 4300 3150
+F 0 "#PWR?" H 4300 3000 50  0001 C CNN
+F 1 "+3.3V" H 4300 3290 50  0000 C CNN
+F 2 "" H 4300 3150 50  0000 C CNN
+F 3 "" H 4300 3150 50  0000 C CNN
+	1    4300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 586B907B
+P 7850 5800
+F 0 "#PWR?" H 7850 5650 50  0001 C CNN
+F 1 "+3.3V" H 7850 5940 50  0000 C CNN
+F 2 "" H 7850 5800 50  0000 C CNN
+F 3 "" H 7850 5800 50  0000 C CNN
+	1    7850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 586B90BE
+P 7400 6150
+F 0 "#PWR?" H 7400 5900 50  0001 C CNN
+F 1 "GND" H 7400 6000 50  0000 C CNN
+F 2 "" H 7400 6150 50  0000 C CNN
+F 3 "" H 7400 6150 50  0000 C CNN
+	1    7400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 586B92DC
+P 3950 6350
+F 0 "#PWR?" H 3950 6200 50  0001 C CNN
+F 1 "+3.3V" H 3950 6490 50  0000 C CNN
+F 2 "" H 3950 6350 50  0000 C CNN
+F 3 "" H 3950 6350 50  0000 C CNN
+	1    3950 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 586B9430
+P 3950 6550
+F 0 "#PWR?" H 3950 6300 50  0001 C CNN
+F 1 "GND" H 3950 6400 50  0000 C CNN
+F 2 "" H 3950 6550 50  0000 C CNN
+F 3 "" H 3950 6550 50  0000 C CNN
+	1    3950 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3150 4550 3150
+Wire Wire Line
+	6400 4300 6550 4300
+Wire Wire Line
+	6550 4300 6550 4900
+Wire Wire Line
+	6400 4400 6550 4400
+Connection ~ 6550 4400
+Wire Wire Line
+	4550 4450 4400 4450
+Wire Wire Line
+	4400 4450 4400 4950
+Wire Wire Line
+	5050 4800 5050 4850
+Wire Wire Line
+	5050 4850 4400 4850
+Connection ~ 4400 4850
+Wire Wire Line
+	7900 1300 8200 1300
+Wire Wire Line
+	7900 1700 8200 1700
+Wire Wire Line
+	8300 4500 8300 4700
+Wire Wire Line
+	7700 4600 8700 4600
+Wire Wire Line
+	8700 4600 8700 4500
+Connection ~ 8300 4600
+Wire Wire Line
+	8600 4500 8600 4600
+Connection ~ 8600 4600
+Wire Wire Line
+	8500 4500 8500 4600
+Connection ~ 8500 4600
+Wire Wire Line
+	7700 4200 7700 4600
+Wire Wire Line
+	8600 2300 8600 2500
+Wire Wire Line
+	9750 3200 9750 3350
+Wire Wire Line
+	9950 3200 9950 3350
+Wire Wire Line
+	9300 3800 9750 3800
+Wire Wire Line
+	9750 3800 9750 3750
+Wire Wire Line
+	9300 3900 9950 3900
+Wire Wire Line
+	9950 3900 9950 3750
+Wire Wire Line
+	4400 6550 3950 6550
+Wire Wire Line
+	3950 6350 4400 6350
+Wire Wire Line
+	4400 6250 4050 6250
+Wire Wire Line
+	4050 6250 4050 6550
+Connection ~ 4050 6550
+Text GLabel 4400 6650 0    39   Input ~ 0
+SD0
+Text GLabel 4400 6750 0    39   Input ~ 0
+SD1
+Text GLabel 4400 5950 0    39   Input ~ 0
+SD2
+Text GLabel 4400 6050 0    39   Input ~ 0
+SD3
+Text GLabel 4400 6150 0    39   Input ~ 0
+SD_CMD
+Text GLabel 4400 6450 0    39   Input ~ 0
+SD_CLK
+Text GLabel 5650 4800 3    39   Input ~ 0
+SD0
+Text GLabel 5750 4800 3    39   Input ~ 0
+SD1
+Text GLabel 5250 4800 3    39   Input ~ 0
+SD2
+Text GLabel 5350 4800 3    39   Input ~ 0
+SD3
+Text GLabel 5550 4800 3    39   Input ~ 0
+SD_CLK
+Text GLabel 5450 4800 3    39   Input ~ 0
+SD_CMD
+$EndSCHEMATC
