@@ -13,3 +13,4 @@ A kicad project for ESP-WROOM-32 module.
 - [NJU7223DL1: 3.3V 500mA Regurator](http://akizukidenshi.com/catalog/g/gI-03705/)
 - [NJU7223DL1: KiCadLib](https://github.com/hirakuni45/RX/blob/master/rx63t_chager/KiCAD/akizuki.lib)
 - [Diode](http://akizukidenshi.com/catalog/g/gI-05951/)
+- [Hirowe-microB-USB: KiCadMod](https://github.com/lab11/kicad/blob/master/parts/pcb/lab11-connectors.pretty/USB_MICRO_B-HIROSE-ZX62R-B-5P.kicad_mod)

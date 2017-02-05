@@ -1,4 +1,4 @@
-update=2017年02月03日 23時25分14秒
+update=2017年02月04日 00時01分57秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/asuki/kicad/esp-wroom-32-break/ESP32-footprints-Shem-Lib
 LibName32=ftdi4
+LibName33=akizuki
