@@ -2,4 +2,5 @@
   (lib (name ESP32-footprints-Lib)(type KiCad)(uri "$(KIPRJMOD)/ESP32-footprints-Lib.pretty")(options "")(descr ""))
   (lib (name usb_micro_b)(type KiCad)(uri "$(KIPRJMOD)/usb_micro_b.pretty")(options "")(descr ""))
   (lib (name ftdi232rq)(type KiCad)(uri "$(KIPRJMOD)/ftdi232rq.pretty")(options "")(descr ""))
+  (lib (name osh-logo)(type KiCad)(uri "$(KIPRJMOD)/osh-logo.pretty")(options "")(descr ""))
 )
