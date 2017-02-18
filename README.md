@@ -1,6 +1,13 @@
 # esp-wroom-32-break
 A kicad project for ESP-WROOM-32 module.
 
+# Modification plan
+I plan to change design of this board for the following points.
+
+- Change to FT232HL for 921600 baud rate.
+- Put mosfets for toggling bood mode automatically.
+- etc..
+
 # Components
 Boutght them from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 
