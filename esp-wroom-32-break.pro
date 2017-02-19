@@ -1,4 +1,4 @@
-update=2017年02月06日 21時47分13秒
+update=2017年02月19日 23時23分10秒
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=valves
 LibName31=akizuki
 LibName32=ESP32-footprints-Shem-Lib
 LibName33=ftdi232rq
+LibName34=MiscellaneousDevices

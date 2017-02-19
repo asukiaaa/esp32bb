@@ -3,4 +3,5 @@
   (lib (name usb_micro_b)(type KiCad)(uri "$(KIPRJMOD)/usb_micro_b.pretty")(options "")(descr ""))
   (lib (name ftdi232rq)(type KiCad)(uri "$(KIPRJMOD)/ftdi232rq.pretty")(options "")(descr ""))
   (lib (name osh-logo)(type KiCad)(uri "$(KIPRJMOD)/osh-logo.pretty")(options "")(descr ""))
+  (lib (name switch)(type KiCad)(uri "$(KIPRJMOD)/switch")(options "")(descr ""))
 )

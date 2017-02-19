@@ -15,8 +15,9 @@ Boutght them from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 - [NJU7223DL1: 3.3V 500mA Regurator](http://akizukidenshi.com/catalog/g/gI-03705/)
 - [Hirose-microB-USB](http://akizukidenshi.com/catalog/g/gC-05254/)
 - [Diode](http://akizukidenshi.com/catalog/g/gI-05951/)
+- [transistor MMBT3904](http://akizukidenshi.com/catalog/g/gI-05969/)
 - [Hirose-microSD-holder](http://akizukidenshi.com/catalog/g/gC-02395/)
-- [switch](http://akizukidenshi.com/catalog/g/gP-09361/)
+- [switch SKRPACE010](http://akizukidenshi.com/catalog/g/gP-06185/)
 - [10uf condensor](http://akizukidenshi.com/catalog/g/gP-07768/)
 - [0.1uf condensor](http://akizukidenshi.com/catalog/g/gP-04940/)
 - [10k registor](http://akizukidenshi.com/catalog/g/gR-06103/)
@@ -26,6 +27,7 @@ Boutght them from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 - [FT232RQ: KiCadLib](https://github.com/upverter/schematic-file-converter/blob/master/upconvert/library/kicad/parts/ftdi4.lib)
 - [NJU7223DL1: KiCadLib](https://github.com/hirakuni45/RX/blob/master/rx63t_chager/KiCAD/akizuki.lib)
 - [Hirose-microB-USB: KiCadMod](https://github.com/lab11/kicad/blob/master/parts/pcb/lab11-connectors.pretty/USB_MICRO_B-HIROSE-ZX62R-B-5P.kicad_mod)
+- [SKRPACE010.kicad_mod](https://github.com/nosuz/kicad-lib/blob/master/module.pretty/SKRPACE010.kicad_mod)
 
 # License
 MIT
@@ -37,3 +39,4 @@ MIT
 - [DS_FT232R](http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf)
 - [SparkFun FTDI Basic Breakout - 3.3V](https://www.sparkfun.com/products/9873)
 - [Sehematic of SparkFun FTDI Basic Breakout - 3.3V](http://cdn.sparkfun.com/datasheets/BreakoutBoards/FTDI%20Basic-v22-3.3V.pdf)
+- [esp32-thing.sch](https://cdn.sparkfun.com/assets/learn_tutorials/5/0/7/esp32-thing-schematic.pdf)
