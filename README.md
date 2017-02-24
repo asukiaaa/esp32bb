@@ -4,7 +4,9 @@ A kicad project for ESP-WROOM-32 module.
 # Modification plan
 I plan to change design of this board for the following points.
 
-- Put mosfets for toggling bood mode automatically.
+- Pull up pins for SD
+- Add reset button
+- Expand footprint for ft232rq
 - etc..
 
 # Components
@@ -21,6 +23,7 @@ Boutght them from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 - [10uf condensor](http://akizukidenshi.com/catalog/g/gP-07768/)
 - [0.1uf condensor](http://akizukidenshi.com/catalog/g/gP-04940/)
 - [10k registor](http://akizukidenshi.com/catalog/g/gR-06103/)
+- [led](http://akizukidenshi.com/catalog/g/gI-06417/)
 
 # Footprints
 - [ESP32-kiCAD-Footprints](https://github.com/adamjvr/ESP32-kiCAD-Footprints)
