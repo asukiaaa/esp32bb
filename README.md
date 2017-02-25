@@ -43,3 +43,6 @@ MIT
 - [SparkFun FTDI Basic Breakout - 3.3V](https://www.sparkfun.com/products/9873)
 - [Sehematic of SparkFun FTDI Basic Breakout - 3.3V](http://cdn.sparkfun.com/datasheets/BreakoutBoards/FTDI%20Basic-v22-3.3V.pdf)
 - [esp32-thing.sch](https://cdn.sparkfun.com/assets/learn_tutorials/5/0/7/esp32-thing-schematic.pdf)
+- [The Internet of Things with ESP32](http://esp32.net/)
+- [ESP-WROVER-KIT_SCH-2.pdf](https://dl.espressif.com/dl/schematics/ESP-WROVER-KIT_SCH-2.pdf)
+- [ESP32-EVB_Rev_A.pdf](https://github.com/OLIMEX/ESP32-EVB/blob/master/HARDWARE/REV-A/ESP32-EVB_Rev_A.pdf)
