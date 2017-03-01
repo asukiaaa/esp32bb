@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# FT232RQ-RESCUE-esp-wroom-32-break
+# FT232RQ-RESCUE-esp32bb
 #
-DEF FT232RQ-RESCUE-esp-wroom-32-break IC 0 40 Y Y 1 L N
+DEF FT232RQ-RESCUE-esp32bb IC 0 40 Y Y 1 L N
 F0 "IC" -700 920 50 H V L BNN
-F1 "FT232RQ-RESCUE-esp-wroom-32-break" -700 -1100 50 H V L BNN
+F1 "FT232RQ-RESCUE-esp32bb" -700 -1100 50 H V L BNN
 F2 "ftdi4-QFN-32" 0 150 50 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW

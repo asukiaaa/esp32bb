@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=esp-wroom-32-break-rescue
+LibName1=esp32bb-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors

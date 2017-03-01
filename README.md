@@ -1,5 +1,5 @@
 # ESP32BB
-A kicad project for ESP-WROOM-32 module.
+A kicad project for ESP-WROOM-32 and breadboard.
 
 # Components
 Boutght them from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).

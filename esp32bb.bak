@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:esp-wroom-32-break-rescue
+LIBS:esp32bb-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,7 +33,7 @@ LIBS:akizuki
 LIBS:ESP32-footprints-Shem-Lib
 LIBS:ftdi232rq
 LIBS:MiscellaneousDevices
-LIBS:esp-wroom-32-break-cache
+LIBS:esp32bb-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -73,7 +73,7 @@ F 3 "" H 6550 4900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG-RESCUE-esp-wroom-32-break P3
+L USB_OTG-RESCUE-esp32bb P3
 U 1 1 586B58B7
 P 10650 4150
 F 0 "P3" H 10975 4025 50  0000 C CNN
