@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5-e0-6337~52~ubuntu16.10.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~52~ubuntu16.10.1)
 
   (general
     (links 114)
     (no_connects 2)
-    (area 149.784999 60.884999 193.115001 121.995001)
+    (area 147.366667 58.461 195.533334 126.269142)
     (thickness 1.6)
     (drawings 94)
     (tracks 539)
@@ -13,6 +13,12 @@
   )
 
   (page A4)
+  (title_block
+    (title ESP32BB)
+    (date 2017-03-02)
+    (rev 1.2)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)

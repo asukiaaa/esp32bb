@@ -39,12 +39,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "ESP32BB"
+Date "2017-03-02"
+Rev "1.2"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "by asukiaaa"
+Comment2 "github.com/asukiaaa/esp32bb"
 Comment3 ""
 Comment4 ""
 $EndDescr

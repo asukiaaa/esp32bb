@@ -2357,7 +2357,7 @@
   (gr_text GND (at 192.3542 71.12 90) (layer B.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)) (justify mirror))
   )
-  (gr_text "Rev 1.2" (at 182.626 70.993 90) (layer F.SilkS)
+  (gr_text "Rev 1.2" (at 182.626 71.12 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text "Rev 1.2" (at 177.8 119.761) (layer B.SilkS)
