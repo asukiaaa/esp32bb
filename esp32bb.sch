@@ -301,23 +301,23 @@ Text GLabel 3200 3150 0    39   Input ~ 0
 IO23
 Text GLabel 3200 3250 0    39   Input ~ 0
 IO22
-Text GLabel 3200 3350 0    39   Input ~ 0
-IO21
-Text GLabel 3200 3450 0    39   Input ~ 0
-IO19
 Text GLabel 3200 3550 0    39   Input ~ 0
-IO18
+IO21
 Text GLabel 3200 3650 0    39   Input ~ 0
-IO5
+IO19
 Text GLabel 3200 3750 0    39   Input ~ 0
-IO17
+IO18
 Text GLabel 3200 3850 0    39   Input ~ 0
-IO16
+IO5
 Text GLabel 3200 3950 0    39   Input ~ 0
-IO4
+IO17
 Text GLabel 3200 4050 0    39   Input ~ 0
-IO2
+IO16
 Text GLabel 3200 4150 0    39   Input ~ 0
+IO4
+Text GLabel 3200 4250 0    39   Input ~ 0
+IO2
+Text GLabel 3200 4350 0    39   Input ~ 0
 IO15
 $Comp
 L +3.3V #PWR011
@@ -366,23 +366,23 @@ $EndComp
 $Comp
 L VCC #PWR015
 U 1 1 58948CFD
-P 2900 4650
-F 0 "#PWR015" H 2900 4500 50  0001 C CNN
-F 1 "VCC" H 2900 4800 50  0000 C CNN
-F 2 "" H 2900 4650 50  0000 C CNN
-F 3 "" H 2900 4650 50  0000 C CNN
-	1    2900 4650
+P 2750 4650
+F 0 "#PWR015" H 2750 4500 50  0001 C CNN
+F 1 "VCC" H 2750 4800 50  0000 C CNN
+F 2 "" H 2750 4650 50  0000 C CNN
+F 3 "" H 2750 4650 50  0000 C CNN
+	1    2750 4650
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR016
 U 1 1 58948D8F
-P 2900 4450
-F 0 "#PWR016" H 2900 4300 50  0001 C CNN
-F 1 "+3.3V" H 2900 4590 50  0000 C CNN
-F 2 "" H 2900 4450 50  0000 C CNN
-F 3 "" H 2900 4450 50  0000 C CNN
-	1    2900 4450
+P 2900 4550
+F 0 "#PWR016" H 2900 4400 50  0001 C CNN
+F 1 "+3.3V" H 2900 4690 50  0000 C CNN
+F 2 "" H 2900 4550 50  0000 C CNN
+F 3 "" H 2900 4550 50  0000 C CNN
+	1    2900 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -410,12 +410,12 @@ $EndComp
 $Comp
 L GND #PWR019
 U 1 1 58948FCD
-P 2750 4250
-F 0 "#PWR019" H 2750 4000 50  0001 C CNN
-F 1 "GND" H 2750 4100 50  0000 C CNN
-F 2 "" H 2750 4250 50  0000 C CNN
-F 3 "" H 2750 4250 50  0000 C CNN
-	1    2750 4250
+P 3050 4750
+F 0 "#PWR019" H 3050 4500 50  0001 C CNN
+F 1 "GND" H 3050 4600 50  0000 C CNN
+F 2 "" H 3050 4750 50  0000 C CNN
+F 3 "" H 3050 4750 50  0000 C CNN
+	1    3050 4750
 	1    0    0    -1  
 $EndComp
 Text GLabel 9550 1050 0    39   Input ~ 0
@@ -643,20 +643,9 @@ U 1 1 58A7A438
 P 1850 3750
 F 0 "P1" H 1850 4650 50  0000 C CNN
 F 1 "CONN_01X17" V 1950 3750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 1850 3750 50  0001 C CNN
+F 2 "common:Pin_Header_Straight_1x17_Pitch2.54mm" H 1850 3750 50  0001 C CNN
 F 3 "" H 1850 3750 50  0000 C CNN
 	1    1850 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X17 P2
-U 1 1 58A7A491
-P 3400 3750
-F 0 "P2" H 3400 4650 50  0000 C CNN
-F 1 "CONN_01X17" V 3500 3750 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x17_Pitch2.54mm" H 3400 3750 50  0001 C CNN
-F 3 "" H 3400 3750 50  0000 C CNN
-	1    3400 3750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -928,6 +917,17 @@ F 3 "" H 3100 5700 50  0000 C CNN
 	1    3100 5700
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_01X18 J1
+U 1 1 58B95980
+P 3400 3800
+F 0 "J1" H 3400 4750 50  0000 C CNN
+F 1 "CONN_01X18" V 3500 3800 50  0000 C CNN
+F 2 "common:Pin_Header_Straight_1x18_Pitch2.54mm" H 3400 3800 50  0001 C CNN
+F 3 "" H 3400 3800 50  0001 C CNN
+	1    3400 3800
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4300 3150 4550 3150
 Wire Wire Line
@@ -963,16 +963,9 @@ Wire Wire Line
 Wire Wire Line
 	3200 2600 3200 2950
 Wire Wire Line
-	2900 4450 3200 4450
+	2900 4550 3200 4550
 Wire Wire Line
 	1350 4450 1650 4450
-Wire Wire Line
-	2750 4250 3200 4250
-Wire Wire Line
-	3100 4250 3100 4350
-Wire Wire Line
-	3100 4350 3200 4350
-Connection ~ 3100 4250
 Wire Wire Line
 	7400 2900 7700 2900
 Wire Wire Line
@@ -1028,12 +1021,6 @@ Wire Wire Line
 	1550 4550 1550 4900
 Wire Wire Line
 	1550 4900 1350 4900
-Wire Wire Line
-	2900 4650 3050 4650
-Wire Wire Line
-	3050 4650 3050 4550
-Wire Wire Line
-	3050 4550 3200 4550
 Wire Wire Line
 	9800 5550 9800 5650
 Wire Wire Line
@@ -1150,4 +1137,14 @@ Connection ~ 3250 6550
 Wire Wire Line
 	3100 5850 3100 6650
 Connection ~ 3100 6650
+Wire Wire Line
+	2750 4650 3200 4650
+Wire Wire Line
+	3050 4750 3050 4450
+Wire Wire Line
+	3050 4450 3200 4450
+Text GLabel 3200 3350 0    39   Input ~ 0
+RXDtoTXD0
+Text GLabel 3200 3450 0    39   Input ~ 0
+TXDtoRXD0
 $EndSCHEMATC
