@@ -40,9 +40,9 @@
      inkscape:window-height="1056"
      id="namedview9873"
      showgrid="false"
-     inkscape:zoom="3.4969567"
-     inkscape:cx="582.1208"
-     inkscape:cy="427.01213"
+     inkscape:zoom="13.987827"
+     inkscape:cx="590.97784"
+     inkscape:cy="394.28371"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -2287,4 +2287,14 @@
   <g
      style="fill:#000000; fill-opacity:1.0;  stroke:#000000; stroke-width:39.3701; stroke-opacity:1;  stroke-linecap:round; stroke-linejoin:round;"
      id="g9871" />
+  <polyline
+     transform="translate(1.608814,602.40528)"
+     id="polyline7887-3"
+     points="69068,39672 69068,40027 68871,40027 68871,39672 69068,39672 "
+     style="fill:#840000;fill-opacity:1;fill-rule:evenodd;stroke:#840000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+  <polyline
+     transform="translate(1.608814,602.40528)"
+     id="polyline7889-6"
+     points="68478,39672 68478,40027 68281,40027 68281,39672 68478,39672 "
+     style="fill:#840000;fill-opacity:1;fill-rule:evenodd;stroke:#840000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
 </svg>
