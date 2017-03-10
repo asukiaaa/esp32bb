@@ -40,8 +40,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ESP32BB"
-Date "2017-03-04"
-Rev "1.3"
+Date "2017-03-10"
+Rev "1.4"
 Comp ""
 Comment1 "by asukiaaa"
 Comment2 "github.com/asukiaaa/esp32bb"
