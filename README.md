@@ -5,7 +5,7 @@ A kicad project for ESP-WROOM-32 and breadboard.
 ![ESP32BB_size](/docs/esp32bb_size.png)
 
 # Components
-Boutght them from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
+Get them mainly from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 
 - [esp-wroop-32](http://akizukidenshi.com/catalog/g/gM-11647/)
 - [FT232RQ](http://akizukidenshi.com/catalog/g/gI-04365/)
@@ -19,6 +19,8 @@ Boutght them from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 - [0.1uf condensor](http://akizukidenshi.com/catalog/g/gP-04940/)
 - [10k registor](http://akizukidenshi.com/catalog/g/gR-06103/)
 - [led](http://akizukidenshi.com/catalog/g/gI-06417/)
+- [Pin socket](http://akizukidenshi.com/catalog/g/gC-05779/)
+- Bread board: [akizuki](http://akizukidenshi.com/catalog/g/gP-05158/) or [aliexpress](https://www.aliexpress.com/item/SYB-170-Mini-Prototype-Experiment-Test-Breadboard-Board-Tie-points-170-Tie-points-35-47-8/32595538101.html?spm=2114.13010608.0.0.nAnEqS)
 
 # Footprints
 - [ESP32-kiCAD-Footprints](https://github.com/adamjvr/ESP32-kiCAD-Footprints)
