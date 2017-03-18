@@ -8,26 +8,21 @@ A kicad project for ESP-WROOM-32 and breadboard.
 Get them mainly from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 
 - [esp-wroop-32](http://akizukidenshi.com/catalog/g/gM-11647/)
-- [FT232RQ](http://akizukidenshi.com/catalog/g/gI-04365/)
-- [NJU7223DL1: 3.3V 500mA Regurator](http://akizukidenshi.com/catalog/g/gI-03705/)
-- [Hirose-microB-USB](http://akizukidenshi.com/catalog/g/gC-05254/)
 - [Diode](http://akizukidenshi.com/catalog/g/gI-05951/)
 - [transistor MMBT3904](http://akizukidenshi.com/catalog/g/gI-05969/)
-- [Hirose-microSD-holder](http://akizukidenshi.com/catalog/g/gC-02395/)
 - [switch SKRPACE010](http://akizukidenshi.com/catalog/g/gP-06185/)
-- [10uf condensor](http://akizukidenshi.com/catalog/g/gP-07768/)
-- [0.1uf condensor](http://akizukidenshi.com/catalog/g/gP-04940/)
-- [10k registor](http://akizukidenshi.com/catalog/g/gR-06103/)
+- [100uf 1206 condensor](http://akizukidenshi.com/catalog/g/gP-08260/)
+- [10uf 0603 condensor](http://akizukidenshi.com/catalog/g/gP-07768/)
+- [0.1uf 0603 condensor](http://akizukidenshi.com/catalog/g/gP-04940/)
+- [1nf (1000pf) 0603 condensor](http://akizukidenshi.com/catalog/g/gP-09285/)
+- [10k 0603 registor](http://akizukidenshi.com/catalog/g/gR-06103/)
 - [led](http://akizukidenshi.com/catalog/g/gI-06417/)
 - [Pin socket](http://akizukidenshi.com/catalog/g/gC-05779/)
 - Bread board: [akizuki](http://akizukidenshi.com/catalog/g/gP-05158/) or [aliexpress](https://www.aliexpress.com/item/SYB-170-Mini-Prototype-Experiment-Test-Breadboard-Board-Tie-points-170-Tie-points-35-47-8/32595538101.html?spm=2114.13010608.0.0.nAnEqS)
 
 # Footprints
 - [ESP32-kiCAD-Footprints](https://github.com/adamjvr/ESP32-kiCAD-Footprints)
-- [FT232RQ: KiCadLib](https://github.com/upverter/schematic-file-converter/blob/master/upconvert/library/kicad/parts/ftdi4.lib)
-- [NJU7223DL1: KiCadLib](https://github.com/hirakuni45/RX/blob/master/rx63t_chager/KiCAD/akizuki.lib)
-- [Hirose-microB-USB: KiCadMod](https://github.com/lab11/kicad/blob/master/parts/pcb/lab11-connectors.pretty/USB_MICRO_B-HIROSE-ZX62R-B-5P.kicad_mod)
-- [SKRPACE010.kicad_mod](https://github.com/nosuz/kicad-lib/blob/master/module.pretty/SKRPACE010.kicad_mod)
+- [switch: SKRPACE010.kicad_mod](https://github.com/nosuz/kicad-lib/blob/master/module.pretty/SKRPACE010.kicad_mod)
 
 # Programing software tools
 ESP32BB is a ESP-WROOM-32 breakout board so you can write your own program by usinig the following tools.
@@ -40,6 +35,7 @@ ESP32BB is a ESP-WROOM-32 breakout board so you can write your own program by us
 MIT
 
 # References
+- [ESP32-Core-Board-V2_sch.pdf](http://akizukidenshi.com/download/ds/espressifsystems/ESP32-Core-Board-V2_sch.pdf)
 - [esp_wroom_32_datasheet_en.pdf](https://espressif.com/sites/default/files/documentation/esp_wroom_32_datasheet_en.pdf)
 - [Enginursday: First Impressions of the ESP32](https://www.sparkfun.com/news/2017)
 - [ESP32 Development Board with TELEC Memorial photograph](https://macsbug.wordpress.com/2016/12/12/esp32-development-board-with-telec-memorial-photograph/)
