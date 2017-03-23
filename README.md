@@ -6,7 +6,6 @@ A kicad project for ESP-WROOM-32 and breadboard.
 [schema](/docs/esp32bb.pdf)
 
 # Components
-Get them mainly from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 
 - [esp-wroop-32](http://akizukidenshi.com/catalog/g/gM-11647/)
 - [Diode](http://akizukidenshi.com/catalog/g/gI-05951/)
@@ -20,6 +19,8 @@ Get them mainly from [akizukidenshi](http://akizukidenshi.com/catalog/top.aspx).
 - [led](http://akizukidenshi.com/catalog/g/gI-06417/)
 - [Pin socket](http://akizukidenshi.com/catalog/g/gC-05779/)
 - Bread board: [akizuki](http://akizukidenshi.com/catalog/g/gP-05158/) or [aliexpress](https://www.aliexpress.com/item/SYB-170-Mini-Prototype-Experiment-Test-Breadboard-Board-Tie-points-170-Tie-points-35-47-8/32595538101.html?spm=2114.13010608.0.0.nAnEqS)
+- [CP2102](https://www.aliexpress.com/item/5pcs-Free-shipping-SILABS-CP2102-GMR-CP2102-QFN-28-offen-use-laptop-chip-100-new-original/32503317767.html?spm=2114.13010608.0.0.PUEIRm)
+- [NCP1117ST33T3G](https://www.aliexpress.com/item/Free-Shipping-NCP1117ST33T3G-NCP1117-3-3V-linear-regulator-SOT-223-package/32244660148.html?spm=2114.13010608.0.0.PUEIRm)
 
 # Footprints
 - [ESP32-kiCAD-Footprints](https://github.com/adamjvr/ESP32-kiCAD-Footprints)
