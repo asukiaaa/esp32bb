@@ -1,0 +1,16 @@
+Elecrow pn,Reference, Value, Footprint,,
+,P3,USB_OTG,usb_micro_b:USB_MICRO_B-HIROSE-ZX62R-B-5P,,
+1023510A(10K),"R1,R3,R6,R7",10K,Resistors_SMD:R_0603,url,memo
+,D1,D,Diodes_SMD:D_0805,http://www.mouser.jp/ProductDetail/ROHM-Semiconductor/RSX101VA-30TR/?qs=4kLU8WoGk0tB41wg4aRbGQ==,
+2013010A(100nf),"C2,C4,C6",0.1uf,Capacitors_SMD:C_0603,,
+2015010A(10uf),"C3,C5",10uf,Capacitors_SMD:C_0603,,
+,U1,ESP32-WROOM,ESP32-footprints-Lib:ESP32-WROOM,http://akizukidenshi.com/catalog/g/gM-11850/,Please use ESP-WROOM-32 module that has TELEC mark.
+,"P1,P2",CONN_01X17,common:Pin_Header_Straight_1x17_Pitch2.54mm,,Foot print is header(male) but use socket (female) component.
+10240102A(100),"R4,R5",100,Resistors_SMD:R_0603,,
+4020290A,"Q1,Q2",MMBT3904,TO_SOT_Packages_SMD:SOT-23,,
+,"SW1,SW2",SWITCH_SPST,switch:SKRPACE010,http://www.mouser.jp/ProductDetail/ALPS/SKRPACE010/?qs=m0BA540hBPehI%2flbUxNGuw==,
+4040706A(green),D2,D02,LEDs:LED_0603,,
+2011501A(1nf),"C1,C7",1nf,Capacitors_SMD:C_0603,,
+,C8,100uf,Capacitors_SMD:C_1206,http://www.mouser.jp/ProductDetail/Taiyo-Yuden/JMK316ABJ107ML-T/?qs=CNQs48zzdnrnxCTArzOO1A==,
+,U3,CP2102,Housings_DFN_QFN:QFN-28-1EP_5x5mm_Pitch0.5mm,http://www.mouser.jp/ProductDetail/Silicon-Labs/CP2102N-A01-GQFN28/?qs=sGAEpiMZZMudZehw8RjeZZsWXNNdVxm97Jo8lcnrZRA%3d,
+,U2,NCP1117ST33T3G,TO_SOT_Packages_SMD:SOT-223,http://www.mouser.jp/ProductDetail/ON-Semiconductor/NCP1117ST33T3G/?qs=%2fha2pyFaduj4IwJuyCbpkUdbMhVss5DSvD5YQhE4OjqSspN1A8SdWw%3d%3d,
