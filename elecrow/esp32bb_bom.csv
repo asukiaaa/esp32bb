@@ -1,6 +1,6 @@
-Elecrow pn,Reference, Value, Footprint,,
-,P3,USB_OTG,usb_micro_b:USB_MICRO_B-HIROSE-ZX62R-B-5P,,
-1023510A(10K),"R1,R3,R6,R7",10K,Resistors_SMD:R_0603,url,memo
+Elecrow pn,Reference, Value, Footprint,url,memo
+,P3,USB_OTG,usb_micro_b:USB_MICRO_B-HIROSE-ZX62R-B-5P,http://www.mouser.jp/ProductDetail/Hirose-Connector/ZX62R-B-5P/?qs=XQjbzJWzFPUqfCc9Mb2Taw==,
+1023510A(10K),"R1,R3,R6,R7",10K,Resistors_SMD:R_0603,,
 ,D1,D,Diodes_SMD:D_0805,http://www.mouser.jp/ProductDetail/ROHM-Semiconductor/RSX101VA-30TR/?qs=4kLU8WoGk0tB41wg4aRbGQ==,
 2013010A(100nf),"C2,C4,C6",0.1uf,Capacitors_SMD:C_0603,,
 2015010A(10uf),"C3,C5",10uf,Capacitors_SMD:C_0603,,
