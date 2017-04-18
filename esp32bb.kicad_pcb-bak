@@ -3,7 +3,7 @@
   (general
     (links 109)
     (no_connects 0)
-    (area 149.784999 60.859999 193.115001 122.020001)
+    (area 138.257687 47.6936 217.291515 126.218342)
     (thickness 1.6)
     (drawings 102)
     (tracks 487)
@@ -20,7 +20,7 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -1307,7 +1307,7 @@
       (net 4 +5V))
   )
 
-  (module common:LED_0603 (layer B.Cu) (tedit 58CE8B3D) (tstamp 58AAE508)
+  (module common:LED_0603 (layer B.Cu) (tedit 58F60AB7) (tstamp 58AAE508)
     (at 177.673 119.0752)
     (descr "LED 0603 smd package")
     (tags "LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED")
@@ -1316,7 +1316,7 @@
     (fp_text reference D2 (at -2.4892 0.0508) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value D02 (at 0 1.1684) (layer B.SilkS)
+    (fp_text value D05 (at 0 1.1684) (layer B.SilkS)
       (effects (font (size 0.7 0.7) (thickness 0.175)) (justify mirror))
     )
     (fp_line (start -1.3 0.5) (end -1.3 -0.5) (layer B.SilkS) (width 0.12))
