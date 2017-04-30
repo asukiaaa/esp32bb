@@ -26,7 +26,7 @@ A kicad project for ESP-WROOM-32 and breadboard.
 - [ESP32-kiCAD-Footprints](https://github.com/adamjvr/ESP32-kiCAD-Footprints)
 - [switch: SKRPACE010.kicad_mod](https://github.com/nosuz/kicad-lib/blob/master/module.pretty/SKRPACE010.kicad_mod)
 
-# Programing software tools
+# Programming software tools
 ESP32BB is a ESP-WROOM-32 breakout board so you can write your own program by usinig the following tools.
 
 - [espressif/arduino-esp32](https://github.com/espressif/arduino-esp32)
