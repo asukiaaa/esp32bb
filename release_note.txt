@@ -1,0 +1,11 @@
+# rev2.2
+- Add diode for 3.3v power
+
+# rev2.1
+- Correct circuit around CP2102 chip
+
+# rev2.0
+- Replace to CP2102 from FT232RQ
+- Remove SD card holder
+- Change LED pin to D05
+- Use 17pins header for both side
