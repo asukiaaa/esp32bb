@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="227.22436"
-     inkscape:cy="141.12033"
+     inkscape:zoom="4"
+     inkscape:cx="137.97564"
+     inkscape:cy="155.25111"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -80,13 +80,13 @@
     <circle
        style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4159-6"
-       cx="168.30708"
+       cx="169.01575"
        cy="848.62207"
        r="5.1696849" />
     <circle
        style="fill:none;stroke:#000000;stroke-width:0.99921268;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4159-3-7"
-       cx="168.30708"
+       cx="169.01575"
        cy="1039.9606"
        r="5.1696849" />
     <rect
@@ -94,7 +94,7 @@
        id="rect4176-5"
        width="5.3787403"
        height="165.53621"
-       x="162.57402"
+       x="163.28268"
        y="861.02356"
        ry="3.9235446" />
     <circle
@@ -118,13 +118,13 @@
     <circle
        style="fill:none;stroke:#000000;stroke-width:0.99921262;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4159-6-7"
-       cx="196.65353"
+       cx="197.3622"
        cy="848.62225"
        r="5.1696849" />
     <circle
        style="fill:none;stroke:#000000;stroke-width:0.99921268;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4159-3-7-0"
-       cx="196.65353"
+       cx="197.3622"
        cy="1039.9606"
        r="5.1696849" />
     <rect
@@ -132,7 +132,7 @@
        id="rect4176-5-9"
        width="5.3787403"
        height="165.53621"
-       x="190.92047"
+       x="191.62914"
        y="861.02374"
        ry="3.9235446" />
     <text
@@ -151,7 +151,7 @@
          x="154.14928"
          y="820.1463"
          style="font-size:12.5px"
-         id="tspan4858">power 100 speed 10</tspan></text>
+         id="tspan4858">power 100 speed 15</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
