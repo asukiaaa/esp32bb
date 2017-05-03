@@ -5,6 +5,9 @@ A kicad project for ESP-WROOM-32 and breadboard.
 
 [schema](/docs/esp32bb.pdf)
 
+# Shop
+[trial stacks](https://trialstacks.base.ec/items/6243312)
+
 # Components
 - [esp-wroop-32](http://akizukidenshi.com/catalog/g/gM-11647/)
 - [Hirose-microB-USB](http://akizukidenshi.com/catalog/g/gC-05254/)
